@@ -51,6 +51,6 @@
     "typescript": "^2.7.2"
   },
   "resolutions": {
-    "typescript": "2.7.2"
+    "typescript": "~2.7.2"
   }
 }
