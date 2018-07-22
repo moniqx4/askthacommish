@@ -6,8 +6,17 @@
     "module": "es2015",
     "types": []
   },
+  "include":[
+    "../node_modules/api-ai-javascript/ts/*.ts",
+    "../node_modules/api-ai-javascript/**/*.ts",
+    "main.ts",
+    "polyfills.ts"
+  ],
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
+  ],
+  "files": [
+    "../src/app/app.module.ts"
   ]
 }
